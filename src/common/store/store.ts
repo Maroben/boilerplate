@@ -1,14 +1,14 @@
 import { Action, ThunkAction, configureStore } from '@reduxjs/toolkit'
-import { salaryApi } from './api/salaryApi'
+import { featureApi } from './api/featureApi'
 import { coreReducer } from './slice/coreSlice'
 
 export const store = configureStore({
   reducer: {
     core: coreReducer,
-    [salaryApi.reducerPath]: salaryApi.reducer,
+    [featureApi.reducerPath]: featureApi.reducer,
   },
   middleware: (getDefaultMiddleware) => {
-    return getDefaultMiddleware().concat(salaryApi.middleware)
+    return getDefaultMiddleware().concat(featureApi.middleware)
   },
 })
 

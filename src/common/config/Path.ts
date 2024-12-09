@@ -2,7 +2,7 @@ import { INavLink } from '@interfaces'
 
 export const Path = {
   home: '/',
-  salaryFinder: '/salary-finder',
+  feature: '/feature',
 }
 
-export const HomeLinks: INavLink[] = [{ key: 'salary-finder', to: '/salary-finder' }]
+export const HomeLinks: INavLink[] = [{ key: 'feature', to: Path.feature }]

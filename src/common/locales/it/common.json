@@ -4,34 +4,15 @@
     "newCalculation": "Nuova calcolatrice"
   },
   "nav": {
-    "salary-finder": "Trovare lo salario"
+    "feature": "Feature"
   },
-  "salary": {
-    "title": "Trovare lo salario",
-    "description": "Quanto costa una offerta?",
-    "form": {
-      "employeeSection": "Informazioni sul lavoratore",
-      "birthdate": "Data di nascita",
-      "jobSection": "Informazioni sul lavoro",
-      "jobLocation": "Luogo di lavoro",
-      "jobStartDate": "Data di inizio lavoro",
-      "JobFunction": "Funzione del lavoro",
-      "employmentSection": "Informazioni sul lavoro",
-      "workhours": "Ore lavorative",
-      "holidayDays": "Giorni festivi",
-      "vacationDays": "Giorni di vacanza",
-      "submit": "Calcola lo salario minimo"
-    },
-    "info": {
-      "title": "Lo salario minimo",
-      "everythingInCHF": "Tutti i valori sono in CHF",
-      "baseSalary": "Lo salario di base",
-      "vacationCompensation": "Compensazione per le vacanze",
-      "holidayCompensation": "Compensazione per i giorni festivi",
-      "additionalMonthCompensation": "Parte del 13° mese",
-      "bruttoHour": "Lo salario brutto (orario)",
-      "bruttoMonth": "Lo salario brutto (mensile)"
-    }
+  "home": {
+    "title": "Boilerplate",
+    "feature": "Feature",
+    "description": "Un fantastico feature!"
+  },
+  "feature": {
+    "title": "Feature"
   },
   "error": {
     "string": {

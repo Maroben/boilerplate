@@ -8,7 +8,6 @@ export function getJoiError(t: TFunction, error?: ValidationError, label?: strin
 
   if (error.details?.length > 0) {
     const detail = error.details[0]
-    console.log(detail?.context)
     if (detail?.context?.limit !== undefined) {
       return t('error.' + detail.type, { limit: detail.context.limit, label: label })
     }

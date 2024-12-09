@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 
 const MyPageLayout = React.lazy(() => import('@components/layout/MyPageLayout'))
 const HomeView = React.lazy(() => import('@modules/HomeModule/HomeView'))
-const SalaryFinderView = React.lazy(() => import('@modules/SalaryModule/SalaryFinderView'))
+const FeatureView = React.lazy(() => import('@modules/FeatureModule/FeatureView'))
 
 export function Router() {
   return (
@@ -12,7 +12,7 @@ export function Router() {
       <Routes>
         <Route path={Path.home} element={<MyPageLayout homeTo={Path.home} links={HomeLinks} />}>
           <Route index element={<HomeView />} />
-          <Route path='salary-finder' element={<SalaryFinderView />} />
+          <Route path={Path.feature} element={<FeatureView />} />
         </Route>
       </Routes>
     </BrowserRouter>

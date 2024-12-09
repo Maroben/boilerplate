@@ -6,6 +6,9 @@
   "nav": {
     "salary-finder": "Lohnfinder"
   },
+  "home": {
+    "title": "ELaw Tools"
+  },
   "salary": {
     "title": "Lohnfinder",
     "description": "Wie viel kostet es, eine Stelle zu besetzen?",

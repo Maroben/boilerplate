@@ -6,6 +6,9 @@
   "nav": {
     "salary-finder": "Trouver le salaire"
   },
+  "home": {
+    "title": "ELaw Tools"
+  },
   "salary": {
     "title": "Trouver le salaire",
     "description": "Combien coûte une offre?",

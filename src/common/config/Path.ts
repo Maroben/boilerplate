@@ -5,4 +5,4 @@ export const Path = {
   salaryFinder: '/salary-finder',
 }
 
-export const HomeLinks: INavLink[] = [{ key: 'salary-finder', to: '/salary-finder' }]
+export const HomeLinks: INavLink[] = [{ key: 'salary-finder', to: Path.salaryFinder }]

@@ -1,0 +1,52 @@
+{
+  "action": {
+    "reset": "Reset",
+    "newCalculation": "Nuova calcolatrice"
+  },
+  "nav": {
+    "salary-finder": "Trovare lo salario"
+  },
+  "salary": {
+    "title": "Trovare lo salario",
+    "description": "Quanto costa una offerta?",
+    "form": {
+      "employeeSection": "Informazioni sul lavoratore",
+      "birthdate": "Data di nascita",
+      "jobSection": "Informazioni sul lavoro",
+      "jobLocation": "Luogo di lavoro",
+      "jobStartDate": "Data di inizio lavoro",
+      "JobFunction": "Funzione del lavoro",
+      "employmentSection": "Informazioni sul lavoro",
+      "workhours": "Ore lavorative",
+      "holidayDays": "Giorni festivi",
+      "vacationDays": "Giorni di vacanza",
+      "submit": "Calcola lo salario minimo"
+    },
+    "info": {
+      "title": "Lo salario minimo",
+      "everythingInCHF": "Tutti i valori sono in CHF",
+      "baseSalary": "Lo salario di base",
+      "vacationCompensation": "Compensazione per le vacanze",
+      "holidayCompensation": "Compensazione per i giorni festivi",
+      "additionalMonthCompensation": "Parte del 13° mese",
+      "bruttoHour": "Lo salario brutto (orario)",
+      "bruttoMonth": "Lo salario brutto (mensile)"
+    }
+  },
+  "error": {
+    "string": {
+      "min": "La risposta deve avere almeno {{limit}} caratteri.",
+      "max": "La risposta deve avere al massimo {{limit}} caratteri.",
+      "empty": "La risposta è obbligatoria."
+    },
+    "number": {
+      "min": "La risposta deve essere minore di {{limit}}.",
+      "max": "La risposta deve essere maggiore di {{limit}}."
+    },
+    "date": {
+      "base": "La data è obbligatoria",
+      "min": "La data deve essere dopo il {{limit}}.",
+      "max": "La data deve essere prima del {{limit}}."
+    }
+  }
+}

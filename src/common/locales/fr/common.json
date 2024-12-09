@@ -1,0 +1,52 @@
+{
+  "action": {
+    "reset": "Réinitialiser",
+    "newCalculation": "Nouvelle calculatrice"
+  },
+  "nav": {
+    "salary-finder": "Trouver le salaire"
+  },
+  "salary": {
+    "title": "Trouver le salaire",
+    "description": "Combien coûte une offre?",
+    "form": {
+      "employeeSection": "Informations sur l'employé",
+      "birthdate": "Date de naissance",
+      "jobSection": "Informations sur le poste",
+      "jobLocation": "Emplacement du poste",
+      "jobStartDate": "Date de début de poste",
+      "JobFunction": "Fonction du poste",
+      "employmentSection": "Informations sur l'emploi",
+      "workhours": "Heures de travail",
+      "holidayDays": "Jours de fériés",
+      "vacationDays": "Jours de vacances",
+      "submit": "Calculer le salaire minimum"
+    },
+    "info": {
+      "title": "Salaire minimum",
+      "everythingInCHF": "Tous les montants sont en CHF",
+      "baseSalary": "Salaire de base",
+      "vacationCompensation": "Remboursement de vacances",
+      "holidayCompensation": "Remboursement de jours fériés",
+      "additionalMonthCompensation": "Part de 13e mois",
+      "bruttoHour": "Salaire brut (par heure)",
+      "bruttoMonth": "Salaire brut (mensuel)"
+    }
+  },
+  "error": {
+    "string": {
+      "min": "La saisie doit comporter au moins {{limit}} caractères.",
+      "max": "La saisie doit comporter au plus {{limit}} caractères.",
+      "empty": "La saisie est obligatoire."
+    },
+    "number": {
+      "min": "La saisie doit être inférieure à {{limit}}.",
+      "max": "La saisie doit être supérieure à {{limit}}."
+    },
+    "date": {
+      "base": "La date est obligatoire",
+      "min": "La date doit être postérieure au {{limit}}.",
+      "max": "La date doit être antérieure au {{limit}}."
+    }
+  }
+}

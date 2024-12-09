@@ -1,0 +1,52 @@
+{
+  "action": {
+    "reset": "Zurücksetzen",
+    "newCalculation": "Neue Berechnung"
+  },
+  "nav": {
+    "salary-finder": "Lohnfinder"
+  },
+  "salary": {
+    "title": "Lohnfinder",
+    "description": "Wie viel kostet es, eine Stelle zu besetzen?",
+    "form": {
+      "employeeSection": "Arbeitnehmer Informationen",
+      "birthdate": "Geburtsdatum",
+      "jobSection": "Job Informationen",
+      "jobLocation": "Arbeitsort",
+      "jobStartDate": "Arbeitsbeginn",
+      "JobFunction": "Jobfunktion",
+      "employmentSection": "Anstellungs Informationen",
+      "workhours": "Wochenstunden",
+      "holidayDays": "Anzahl Feiertage",
+      "vacationDays": "Anzahl Ferientage",
+      "submit": "Mindestlohn berechnen"
+    },
+    "info": {
+      "title": "Mindestlohn",
+      "everythingInCHF": "Alle Werte in CHF",
+      "baseSalary": "Grundlohn",
+      "vacationCompensation": "Ferienentschädigung",
+      "holidayCompensation": "Feiertagsentschädigung",
+      "additionalMonthCompensation": "Anteil 13. Monatslohn",
+      "bruttoHour": "Bruttolohn (Stunde)",
+      "bruttoMonth": "Bruttolohn (Monat)"
+    }
+  },
+  "error": {
+    "string": {
+      "min": "Die Eingabe muss mindestens {{limit}} Zeichen lang sein.",
+      "max": "Die Eingabe darf maximal {{limit}} Zeichen lang sein.",
+      "empty": "Die Eingabe ist erforderlich."
+    },
+    "number": {
+      "min": "Die Eingabe muss kleiner als {{limit}} sein.",
+      "max": "Die Eingabe muss grösser als {{limit}} sein."
+    },
+    "date": {
+      "base": "Das Datum ist erforderlich",
+      "min": "Das Datum muss nach dem {{limit}} liegen.",
+      "max": "Das Datum muss vor dem {{limit}} liegen."
+    }
+  }
+}
